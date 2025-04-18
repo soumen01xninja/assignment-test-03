@@ -43,8 +43,72 @@
 <body class="sora">
        
        <!-- this is header part -->
-       <header>
+       <header class="container mx-auto bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
+        <!-- navigation bar -->
+        <nav class=" border border-solid border-[#179800] md:border-0 lg:border-0  ">
+          <div class="navbar bg-base-100  ">
+            <div class="navbar-start w-full md:w-1/2 ">
+        <div class="flex justify-between h-full w-full">
+          <div><img src="/c2-assets/logo-header.png" alt=""></div>
+          
+            <div class="dropdown text-[#179800] ">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden  ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0  ">
+                <li><a>Product</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+          
+        </div>
+              
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-[20px]  text-[#111111]  ">
+                <li><a>Product</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+            
+            
+            <div class="navbar-end gap-4 text-center items-center  hidden md:flex">
+              <div class= "text-center items-center  hidden md:flex gap-4 pr-5">
+                <i class="fas fa-search text-[22px]  text-[#111111] hover:text-[#179800] "></i>
+                <i class="fas fa-cart-arrow-down text-[22px] scale-x-[-1]  text-[#111111]  hover:text-[#179800] "></i>
+  
+              </div>
+              <button class="btn btn-outline btn-success px-[30px] py-[10px] text-[#111111] bg-white text-[20px] font-medium rounded-lg border-solid border-[#179800] ">Login</button>
+              <a class="btn bg-[#179800] text-white text-[20px] font-medium px-[30px] py-[10px] rounded-lg">Register</a>
+            </div>
+          </div>
 
+        </nav>
+
+        <!-- banner part -->
+         <div>
+          <h1 class="text-[56px] font-semibold text-black    text-center mt-[45px] md:mt-[95px] lg:mt-[95px] mr-[25px] ml-[25px] md:mr-0 ml-0  ">Freshness <span class="text-[56px] font-semibold text-[#179800]">You Can <br>
+            Count</span> On, Prices You’ll Love!</h1>
+            <p class="text-[20px] text-[#111111] font-normal text-center lg:mt-[35px] md:mt-[35px] mt-[16px] mr-8 ml-8 md:mr-0 ml-0  justify-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+         </div>
+         <div>
+           <img class="md:w-full md:mx-w-[1031px] md:h-full md:min-h-[838px] justify-center items-center mt-[16px] md:mt-[37px] lg:mt-[37px]" src="./c2-assets/hero-vegetables.png" alt="">
+         </div>
        </header>
 
        <!-- this is middle part -->
